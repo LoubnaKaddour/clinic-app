@@ -1,0 +1,72 @@
+/* src/styles/Team.css */
+.team-page {
+  padding: 40px 20px;
+  direction: rtl;
+  font-family: "Cairo", sans-serif;
+  background-color: #f6fafd;
+}
+
+.team-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.team-header h1 {
+  font-size: 36px;
+  color: #006699;
+}
+
+.team-header p {
+  font-size: 18px;
+  color: #444;
+}
+
+.team-grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  justify-items: center;
+}
+
+.team-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.team-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.team-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-bottom: 3px solid #0077cc;
+}
+
+.team-info {
+  padding: 15px 20px;
+}
+
+.team-info h3 {
+  font-size: 22px;
+  color: #004b8d;
+  margin-bottom: 8px;
+}
+
+.team-info .role {
+  color: #0077aa;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.team-info .experience {
+  color: #666;
+  font-size: 15px;
+}
