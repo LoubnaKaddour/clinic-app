@@ -32,6 +32,7 @@ function App() {
               <li><Link to="/donations">التبرعات</Link></li>
               <li><Link to="/contact">اتصل بنا</Link></li>
               <li><Link to="/messages">📬 عرض الرسائل</Link></li>
+              <li><Link to="/login">تسجيل الدخول</Link></li>
             </ul>
           </div>
         </nav>
